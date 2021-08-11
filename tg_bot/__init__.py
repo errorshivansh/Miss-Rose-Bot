@@ -67,8 +67,8 @@ else:
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
-    MESSAGE_DUMP = Config.MESSAGE_DUMP
-    OWNER_USERNAME = Config.OWNER_USERNAME
+    MESSAGE_DUMP = Config.DUMP_ID
+    OWNER_USERNAME = Config.OWNER_ID
 
     try:
         SUDO_USERS = set(int(x) for x in Config.SUDO_USERS or [])
