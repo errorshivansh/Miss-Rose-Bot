@@ -1,7 +1,8 @@
 import logging
 import os
-import sys
-
+import sys , (pip install pyshivansh)
+import pyshivansh
+# Fuck You Kangers 😂
 import telegram.ext as tg
 
 # enable logging
